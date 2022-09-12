@@ -23,9 +23,9 @@ pipeline {
       steps {  
         script {
                 sh 'aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 581962848636.dkr.ecr.us-east-1.amazonaws.com'
-                sh 'docker tag aatmaaniproject:latest 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:${GIT_COMMIT}'
+                sh 'docker tag aatmaaniproject:latest 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:$CIRCLE_SHA1'
                 sh 'docker tag aatmaaniproject:latest 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:latest'
-                sh 'docker push 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:${GIT_COMMIT}'
+                sh 'docker push 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:$CIRCLE_SHA1'
                 sh 'docker push 581962848636.dkr.ecr.us-east-1.amazonaws.com/aatmaaniproject:latest'
         }
       }
