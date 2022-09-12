@@ -2,6 +2,8 @@ FROM node:latest
 WORKDIR /usr/src/app 
 
 COPY /nodewebsite/* /
+
+COPY /nodewebsite/* /test
 RUN apt update -y
 RUN npm install -y
 EXPOSE 3000
