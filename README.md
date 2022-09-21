@@ -47,3 +47,4 @@ Grafana is a multi-platform open source analytics and interactive visualization 
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
 # phase one
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejsapp.drawio.png)
+![](https://github.com/ckaruthapandi/diagram/blob/main/nodejaapp.png)
