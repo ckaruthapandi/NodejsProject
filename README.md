@@ -1,3 +1,5 @@
+# Nodejs Project
+- A simple Express-based app to test Node.js support.
 ## Tools
 - Git
 - Github
@@ -45,6 +47,15 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
-# phase one
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejsapp.drawio.png)
-![](https://github.com/ckaruthapandi/diagram/blob/fe04c76f88b0ff8d204270f44e3b857393c47119/nodejaapp.png)
+# Project overview diagram
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
+# Phase 1
+### Continuous Integration
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CI.drawio.png)
+# Phase 2
+### Continuous Integration
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CD.png)
+# Phase 3
+### Continuous Integration
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
+
