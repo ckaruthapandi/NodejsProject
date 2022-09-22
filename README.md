@@ -1,5 +1,28 @@
 # Nodejs Project
 - A simple Express-based app to test Node.js support.
+# Project overview diagram
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
+# Phase 1
+### Continuous Integration
+Continuous integration (CI) is the software engineering practice that requires frequent commits to a shared repository.
+people would work on feature branches for weeks or months and then try to merge this branch to a main branch. Think about all that could go wrong during such merge — merge conflicts and failing tests, just to mention a few.
+
+Continuous integration tries to prevent all of these by encouraging small and frequent code updates. When a code is committed to a repository, it can be built and tested against setup workflows to ensure that the code does not introduce any errors.
+
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CI.drawio.png)
+# Phase 2
+### Continuous Deployment
+Continuous deployment means code changes are automatically deployed/released to a testing or production environment as soon as they are merged. This is often interchanged with continuous delivery and that’s because they are very similar.
+
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CD.png)
+# Phase 3
+### Continuous Monitoring
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
+## AWS service 
+- EC2
+- ECR
+- EKS
+- Load Balancer
 ## Tools
 - Git
 - Github
@@ -16,10 +39,7 @@
 - elastic search 
 - grafana
 - kibana
-## AWS service 
-- EC2
-- ECR
-- EKS
+
 ## Git
 GIT plays a vital role in code management that the collaborators deliver to the shared repository (data space where you save your files). The code is now extracted to perform continuous integration, created, and then tested on the server, then deployed in the products.
 ## GitHub
@@ -47,15 +67,4 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
-# Project overview diagram
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
-# Phase 1
-### Continuous Integration
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CI.drawio.png)
-# Phase 2
-### Continuous Integration
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CD.png)
-# Phase 3
-### Continuous Integration
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
 
