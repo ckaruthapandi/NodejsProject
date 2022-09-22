@@ -1,7 +1,15 @@
 # Nodejs Project overview 
 - A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
-- A pipeline helps automate steps software deployment process, such as initiating automatic builds and then deploying to EKS cluster. used github repository, a service that builds in jenkins, tested in EKS test  enviroment , and deploys code every time there is a code change, based on the EKS name space. Use Docker to orchestrate each step in your release process. used Jenkins to completed software deployment pipeline. created a very simple pipeline that pulls code from a source repository and automatically deploys EKS cluster.
-- 
+
+## Stages of a CI/CD pipeline
+
+A typical CI/CD pipeline works in 4 phases that are listed below:       
+
+* Commit - This is the actual phase where developers commit changes to the code.
+* Docker image Build – In this phase, the source code is integrated into the build from the repository. 
+* Push to aws ECR - This step is an setting docker image tag and pused into AWS ECR repository.
+* Deploy - The latest version is finally sent for deployment in AWS kubernetes cluster.
+
 `<Github repo>` https://github.com/ckaruthapandi/NodejsProject
 
 `<Github repo>` https://github.com/ckaruthapandi/devops
@@ -75,4 +83,3 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
-
