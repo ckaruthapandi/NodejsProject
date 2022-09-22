@@ -23,6 +23,7 @@ Continuous deployment means code changes are automatically deployed/released to 
 # Phase 3
 ### Continuous Monitoring
 Continuous monitoring is the process and technology used to detect compliance and risk issues associated with an organization's financial and operational environment. The financial and operational environment consists of people, processes, and systems working together to support efficient and effective operations.
+
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
 ## AWS service 
 - EC2
