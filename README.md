@@ -1,6 +1,11 @@
-# Nodejs Project
-- A simple Express-based app to test Node.js support.
-# Project overview diagram
+# Nodejs Project overview 
+- A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
+- A pipeline helps automate steps software deployment process, such as initiating automatic builds and then deploying to EKS cluster. used github repository, a service that builds in jenkins, tested in EKS test  enviroment , and deploys code every time there is a code change, based on the EKS name space. Use Docker to orchestrate each step in your release process. used Jenkins to completed software deployment pipeline. created a very simple pipeline that pulls code from a source repository and automatically deploys EKS cluster.
+- 
+`<Github repo>` https://github.com/ckaruthapandi/NodejsProject
+`<Github repo>` https://github.com/ckaruthapandi/devops
+
+### Diagram
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
 # Phase 1
 ### Continuous Integration
@@ -17,6 +22,7 @@ Continuous deployment means code changes are automatically deployed/released to 
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CD.png)
 # Phase 3
 ### Continuous Monitoring
+Continuous monitoring is the process and technology used to detect compliance and risk issues associated with an organization's financial and operational environment. The financial and operational environment consists of people, processes, and systems working together to support efficient and effective operations.
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
 ## AWS service 
 - EC2
