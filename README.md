@@ -24,16 +24,30 @@ people would work on feature branches for weeks or months and then try to merge 
 Continuous integration tries to prevent all of these by encouraging small and frequent code updates. When a code is committed to a repository, it can be built and tested against setup workflows to ensure that the code does not introduce any errors.
 
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CI.drawio.png)
+
++ Webhooks provide a way for notifications to be delivered to an Jenkins server.
++ whenever certain actions occur on a git hub repository automatically started to execute Jenkins pipeline.
++ it will check code from githib repo and docker make it as container images.
++ After done docker build jenkins will trigger notification mail to slack.
++ once containe ready, setting up tag then push into aws ECR.
+
 # Phase 2
 ### Continuous Deployment
 Continuous deployment means code changes are automatically deployed/released to a testing or production environment as soon as they are merged. This is often interchanged with continuous delivery and that’s because they are very similar.
 
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/CD.png)
++ In this project three different pipeline are there(dev,qa,prod)
++ As per request will depoy application with help of helm charts into variuous environment like(dev,qa,prod) in AWS EKS name space.
++ Jenkins pileline it will take container images from AWS ECR then it will deploy into EKS cluster, once deplyed successfully, with help of load balancer URL we can access express application in public domain.
+
 # Phase 3
 ### Continuous Monitoring
 Continuous monitoring is the process and technology used to detect compliance and risk issues associated with an organization's financial and operational environment. The financial and operational environment consists of people, processes, and systems working together to support efficient and effective operations.
 
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
+
++ Node exporter will collect log from EKS cluster node then it's send log to prometheus DB
++ Grafana will collect 
 ## AWS service 
 - EC2
 - ECR
