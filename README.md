@@ -102,3 +102,4 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
+
