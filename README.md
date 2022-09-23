@@ -1,6 +1,7 @@
-# Nodejs Project overview 
+# Express Nodejs Project overview 
 - A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
-
+### Diagram
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
 ## Stages of a CI/CD pipeline
 
 A typical CI/CD pipeline works in 4 phases that are listed below:       
@@ -14,8 +15,6 @@ A typical CI/CD pipeline works in 4 phases that are listed below:
 
 `<Github repo>` https://github.com/ckaruthapandi/devops
 
-### Diagram
-![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/nodejaapp.png)
 # Phase 1
 ### Continuous Integration
 Continuous integration (CI) is the software engineering practice that requires frequent commits to a shared repository.
@@ -102,4 +101,7 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
+
+
+
 
