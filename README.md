@@ -51,7 +51,7 @@ Continuous monitoring is the process and technology used to detect compliance an
 + Kibana, on the other hand, is the visualizer of those indexed data. simply view the logs here in real time and use filters to narrow down your search. You can also create graphs and dashboards out of those search
 + load balancers to expose our application to the Internet. The Cloud provider will provide a mechanism for routing the traffic to the services. we can access appliaction in public domain.
 + with help of load balance we can access Grafana and kibana dashboard in public domain.
-+ 
+
 ## AWS service 
 - EC2
 - ECR
@@ -101,5 +101,4 @@ Elasticsearch is a distributed, free and open search and analytics engine for al
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 ## Kibana
 Kibana is a source-available data visualization dashboard software for Elasticsearch, whose free and open source successor in OpenSearch is OpenSearch Dashboards.
-
 
