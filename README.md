@@ -47,7 +47,12 @@ Continuous monitoring is the process and technology used to detect compliance an
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/monitor.png)
 
 + Node exporter will collect log from EKS cluster node then it's send log to prometheus DB
-+ Grafana will collect 
++ Grafana will display EKS cluster and metrics as per grafana dashboard visualization
++ Fluent Bit transfers logs to Elasticsearch. Elasticsearch will be the data store of the aggregated and parsed log files by Fluent Bit.
++ Kibana, on the other hand, is the visualizer of those indexed data. simply view the logs here in real time and use filters to narrow down your search. You can also create graphs and dashboards out of those search
++ load balancers to expose our application to the Internet. The Cloud provider will provide a mechanism for routing the traffic to the services. we can access appliaction in public domain.
++ with help of load balance we can access Grafana and kibana dashboard in public domain.
++ 
 ## AWS service 
 - EC2
 - ECR
