@@ -2,8 +2,6 @@
 - A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
 ### Diagram
 ![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/Express%20Nodejs%20Project%20overview.png)
-# Express Nodejs Project overview 
-- A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
 
 ## Stages of a CI/CD pipeline
 
