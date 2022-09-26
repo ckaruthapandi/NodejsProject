@@ -4,7 +4,7 @@
 ![](# Express Nodejs Project overview 
 - A simple Express-based app to test Node.js support. devops framework for building CI/CD pipeline in aws.
 ### Diagram
-(https://raw.githubusercontent.com/ckaruthapandi/diagram/main/Express%20Nodejs%20Project%20overview.png)
+![](https://raw.githubusercontent.com/ckaruthapandi/diagram/main/Express%20Nodejs%20Project%20overview.png)
 ## Stages of a CI/CD pipeline
 
 A typical CI/CD pipeline works in 4 phases that are listed below:       
